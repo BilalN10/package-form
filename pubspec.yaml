@@ -1,0 +1,44 @@
+name: form_kosmos
+description: A new Flutter package project.
+version: 0.0.1
+homepage: none
+publish_to: none
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+  flutter: '>=1.17.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^3.3.0
+  hooks_riverpod: ^1.0.3
+  easy_localization: ^3.0.1
+  get_it: ^7.2.0
+  intl: ^0.17.0
+  flutter_svg: ^1.0.3
+  expandable_page_view: ^1.0.13
+  image_picker: ^0.8.5+3
+  cached_network_image: ^3.2.1
+  fluttertoast: 8.1.2
+  core_kosmos:
+    git:
+      publish_to: none
+      url: YOUR_URL
+      ref: main
+  ui_kosmos_v4:
+    git:
+      publish_to: none
+      url: YOUR_URL
+      ref: main
+  form_generator_kosmos:
+    git:
+      publish_to: none
+      url: YOUR_URL
+      ref: main
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/svg/
